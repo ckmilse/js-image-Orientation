@@ -11,3 +11,13 @@ https://www.jianshu.com/p/eb855b580780
       6: 90,
       8: 270,
     }
+
+```
+npm i js-image-orientation --save
+
+import getOriginRotate from 'js-image-orientation'
+
+//todo  if cosnt base64 = 'data:image/jpg;base64,iVBORw0KGgoAAAANSUhE....'
+const orientation = (1) * (await getOriginRotate(base64))
+//we can get orientation
+```
